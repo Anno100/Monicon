@@ -1,0 +1,109 @@
+
+:root {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+body{
+    background-color: rgb(192, 187, 187);
+}
+button{
+    background-color: black;
+    color: white;
+    width: 200px;
+    transition: 0.5s;
+}
+
+button:hover{
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+}
+
+
+
+canvas{
+    background-color: white;
+}
+
+
+.grid{
+    color: black;
+    background-color: transparent;
+    display: grid;
+  }
+  .grid.grid-1 {
+    grid-template-columns: auto;
+  }
+  .grid.grid-2 {
+    grid-template-columns: auto auto;
+  }
+  .grid.grid-3 {
+    grid-template-columns: auto auto auto;
+  }
+  .grid.grid-4 {
+    grid-template-columns: auto auto auto auto;
+  }
+  .grid.grid-5 {
+    grid-template-columns: auto auto auto auto auto;
+  }
+  .grid.grid-6 {
+    grid-template-columns: auto auto auto auto auto auto;
+  }
+  .grid.grid-7 {
+    grid-template-columns: auto auto auto auto auto auto auto;
+  }
+  .grid.grid-8 {
+    grid-template-columns: auto auto auto auto auto auto auto auto;
+  }
+  .grid.grid-9 {
+    grid-template-columns: auto auto auto auto auto auto auto auto auto;
+  }
+  .grid.grid-10 {
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
+  }
+  .grid.grid-11 {
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto;
+  }
+  .grid.grid-12 {
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto;
+  }
+  .grid.grid-col{
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+    height: 20px;
+    width: 200px;
+  }
+  .grid-header{
+    background-color: rgb(34, 12, 158);
+    color: white;
+    text-align: center;
+    border-style: solid;
+    border-color: black;
+    margin: 0px;
+  }
+  .grid > input{
+    text-align: center;
+  }
+
+  .ID{
+    background-color: black;
+    color: white;
+    
+  }
+
+  .BODY{
+    margin-left: 10px;
+    margin-top: 10px;
+    display: flex;
+  }
+
+  .button-add{
+    background-color: red;
+    width: 20px;
+  }
+  .button-add:hover{
+    background-color: rgb(255, 145, 0);
+    transition: 0.3s;
+  }
+

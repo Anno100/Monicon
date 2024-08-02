@@ -29,6 +29,7 @@ function is_touch_enabled() {
 function Main() {
     console.clear();
     createFormButton('Home');
+    createFormButton('','Description');
 
     let canvas_3d = Canvas3D.createSBSCanvas();
 
